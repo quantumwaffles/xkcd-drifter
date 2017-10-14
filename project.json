@@ -1,0 +1,150 @@
+{
+	"description" : "Random XKCD comics drift across the screen.",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"direction" : 
+			{
+				"options" : 
+				[
+					{
+						"label" : "From Right",
+						"value" : 1
+					},
+					{
+						"label" : "From Left",
+						"value" : 2
+					},
+					{
+						"label" : "From Top",
+						"value" : 3
+					},
+					{
+						"label" : "From Bottom",
+						"value" : 4
+					}
+				],
+				"text" : "Direction",
+				"type" : "combo",
+				"value" : 4
+			},
+			"fade" : 
+			{
+				"max" : 100,
+				"min" : 1,
+				"text" : "Fade Amount",
+				"type" : "slider",
+				"value" : 20
+			},
+			"fpsLimit" : 
+			{
+				"options" : 
+				[
+					{
+						"label" : "Unlimited",
+						"value" : 0
+					},
+					{
+						"label" : "15",
+						"value" : 15
+					},
+					{
+						"label" : "30",
+						"value" : 30
+					},
+					{
+						"label" : "60",
+						"value" : 60
+					},
+					{
+						"label" : "120",
+						"value" : 120
+					}
+				],
+				"text" : "FPS Limit",
+				"type" : "combo",
+				"value" : 0
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.1843137254901961 0.1843137254901961 0.1843137254901961"
+			},
+			"scrollSpeed" : 
+			{
+				"options" : 
+				[
+					{
+						"label" : "Slow",
+						"value" : 0.25
+					},
+					{
+						"label" : "Normal",
+						"value" : 0.5
+					},
+					{
+						"label" : "Fast",
+						"value" : 2
+					},
+					{
+						"label" : "Insane",
+						"value" : 10
+					}
+				],
+				"text" : "Scroll Speed",
+				"type" : "combo",
+				"value" : 0.5
+			},
+			"showFps" : 
+			{
+				"text" : "Show FPS",
+				"type" : "bool",
+				"value" : false
+			},
+			"spawnRate" : 
+			{
+				"options" : 
+				[
+					{
+						"label" : "Occasional",
+						"value" : 5
+					},
+					{
+						"label" : "Normal",
+						"value" : 2
+					},
+					{
+						"label" : "Fast",
+						"value" : 0.5
+					},
+					{
+						"label" : "Insane",
+						"value" : 0
+					}
+				],
+				"text" : "Spawn Rate",
+				"type" : "combo",
+				"value" : 2
+			},
+			"trippy" : 
+			{
+				"max" : 9,
+				"min" : 0,
+				"text" : "Trippy Index",
+				"type" : "slider",
+				"value" : 0
+			}
+		}
+	},
+	"monetization" : false,
+	"preview" : "preview.jpg",
+	"tags" : [ "Cartoon" ],
+	"title" : "XKCD Drifter",
+	"type" : "web",
+	"visibility" : "private",
+	"workshopid" : 1162671572
+}
